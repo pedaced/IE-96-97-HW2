@@ -1,0 +1,176 @@
+.nav .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-register a {
+    text-decoration: none;
+    color: gray;
+    border: solid gray 1px;
+    border-radius: 25px;
+    font-size: 90%;
+}
+
+#register {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#register:hover {
+    border:solid 1px blue;
+    color: blue;
+}
+
+#login {
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: gray;
+    color: white;
+}
+
+#login:hover {
+    background-color: blue;
+    border:solid 1px blue;
+}
+
+.title {
+    position: relative;
+    top: -10px;
+    font-size: 150%;
+    color: gray;
+}
+
+.type-list .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 24%;
+    padding-left: 24%;
+    padding-top: 2%;
+
+}
+.type-list .flex-container div {
+    font-size:80%;
+}
+
+.type-list .flex-container div a{
+    text-decoration: none;
+}
+
+.type-list .flex-container div a:hover{
+    color: blue;
+}
+
+.type-list .flex-container div a:active{
+    border-bottom: 1px solid blue;
+}
+
+.main-list .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 14%;
+    padding-left: 14%;
+    padding-top: 2%;
+}
+.main-list img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.main-list .flex-item {
+    border: 1px solid gray;
+    border-bottom: none;
+    border-radius : 3px;
+    padding-top: 2%;
+    flex: 1 1 0;
+    margin-left: 2%;
+}
+
+.main-list .flex-item a {
+    font-size: 80%;
+    text-decoration: none;
+}
+
+
+.main-list .flex-item div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-list .flex-item:hover {
+    border: 1px blue solid;
+    border-bottom: none;
+    color: blue;
+}
+
+#flex6:hover #img6 {
+   content: url("icons/locked-padlock-1.svg");
+    width: 30px;
+    height: 30px;
+}
+
+#flex5:hover #img5 {
+    content: url("icons/man-user%20(1).svg");
+    width: 30px;
+    height: 30px;
+}
+
+#flex4:hover #img4 {
+    content: url("icons/left-arrow%20(2).svg");
+    width: 30px;
+    height: 30px;
+}
+
+#flex3:hover #img3 {
+    content: url("icons/question%20(1).svg");
+    width: 30px;
+    height: 30px;
+}
+
+#flex2:hover #img2 {
+    content: url("icons/envelope-back-black-interface-symbol-1.svg");
+    width: 30px;
+    height: 30px;
+}
+
+#flex1:hover #img1 {
+    content: url("icons/speech-bubble-black%20(2).svg");
+    width: 30px;
+    height: 30px;
+}
+
+
+#flex6:hover #text6 {
+    color: blue;
+}
+
+
+#flex5:hover #text5 {
+    color: blue;
+}
+
+
+#flex4:hover #text4 {
+    color: blue;
+}
+
+
+#flex3:hover #text3 {
+    color: blue;
+}
+
+
+#flex2:hover #text2 {
+    color: blue;
+}
+
+
+#flex1:hover #text1 {
+    color: blue;
+}
+
