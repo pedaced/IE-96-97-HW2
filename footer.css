@@ -1,0 +1,84 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 2%;
+}
+.footer .flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.footer .flex-item {
+    align-items: flex-start;
+}
+.footer .flex-item a {
+    text-decoration: none;
+    font-size: 80%;
+}
+.footer .flex-item a:hover {
+    color: blue;
+    font-weight: bold;
+}
+#item1 {
+    flex: 0 1 40%;
+    /*margin-left: 5%;*/
+}
+
+#item2 {
+    flex: 0 1 30%;
+}
+
+#item3 {
+    flex: 0 1 70%;
+    align-items: center;
+
+}
+
+#item4 {
+    padding-top: 2%;
+}
+#item4 p {
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.images {
+    margin: auto !important;
+}
+
+.footer .flex-container .social-networks img {
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    background-color: gray;
+    background-image: url("icons/tw.png");
+}
+
+.footer .flex-container .social-networks .img1 {
+    width: 11.2%;
+    height: 11.2%;
+}
+
+#image1:hover {
+    content: url("icons/twitter1.png");
+}
+
+#image2:hover {
+}
+
+#image3:hover {
+    content: url("icons/facebook1.png");
+}
+
+#image4:hover {
+    content: url("icons/twitter1.png");
+}
+#image5:hover {
+
+}
+
+#image6:hover {
+    content: url("icons/facebook1.png");
+}
