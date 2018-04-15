@@ -1,7 +1,5 @@
 .footer {
-    position: fixed;
-    width: 100%;
-    bottom: 2%;
+    float: none;
 }
 .footer .flex-container{
     display: flex;
@@ -57,8 +55,8 @@
 }
 
 .footer .flex-container .social-networks .img1 {
-    width: 11.2%;
-    height: 11.2%;
+    /*width: 11.2%;*/
+    /*height: 11.2%;*/
 }
 
 #image1:hover {

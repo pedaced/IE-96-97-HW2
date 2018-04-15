@@ -1,7 +1,56 @@
 @import 'navbar.css';
 @import 'footer.css';
 
+
 * {
     font-family: IRANSans;
     color: gray;
+}
+
+.content {
+    margin-right: 14%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.content .first-content {
+
+}
+
+.content .classed {
+    display: inline-block;
+    margin: auto;
+    font-size: 70%;
+}
+
+#class3 {
+    padding-right: 10%;
+}
+
+#class1 {
+    width: 20%;
+    margin-left: 4%;
+    position: relative;
+    top: +24px;
+}
+#class1 span {
+    font-weight: bold;
+    font-size: 200%;
+}
+#class2 {
+    width: 40%;
+}
+
+#class3 p {
+    font-size: 120%;
+}
+
+#class3 p:first-child {
+    position: relative;
+    top: -95px;
+}
+
+#class3 p:last-child {
+    position: relative;
+    top: -50px;
 }

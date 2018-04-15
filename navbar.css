@@ -1,8 +1,4 @@
-.nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
+
 .nav .flex-container {
     display: flex;
     align-items: center;
@@ -65,10 +61,11 @@
 
 .type-list .flex-container div a:hover{
     color: blue;
+    border-bottom: 1px solid blue;
 }
 
 .type-list .flex-container div a:active{
-    border-bottom: 1px solid blue;
+    /*border-bottom: 1px solid blue;*/
 }
 
 .main-list .flex-container {
