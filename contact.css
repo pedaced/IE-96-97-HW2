@@ -1,0 +1,112 @@
+@import 'navbar.css';
+@import 'footer.css';
+
+*{
+    font-family: IRANSans;
+    color: gray;
+}
+
+.main-list .flex-item:nth-child(2){
+    border: 1px blue solid;
+    /*border-bottom: none;*/
+    color: blue;
+}
+
+#text2 {
+    color: blue;
+}
+
+.contact-content {
+    width: 65%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.contactus {
+    font-size: 90%;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+    grid-gap: 4%;
+}
+
+.logos span{
+    font-size: 200%;
+    color: gray;
+    margin: auto;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+
+.logos .card {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 1%;
+}
+
+.logos .icon {
+    margin: auto;
+    padding: 2%;
+}
+
+.logos .icon .fa {
+    padding: 14%;
+    /*width: 120%;*/
+}
+.logos .icon .fa-phone {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.logos p{
+    font-size: 60%;
+}
+
+.logos .description {
+    font-size: 70%;
+    margin: auto;
+}
+
+.address {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 3%;
+}
+
+.address p {
+    font-size: 80%;
+}
+
+.address h4 {
+    font-size: 80%;
+}
+
+.address h4 {
+    margin: 1%;
+}
+
+.address .map iframe{
+    width: 490px;
+    height: 400px;
+}
+
+.warning {
+    background-color: #e55137;
+    padding: 1%;
+    border-radius: 2px;
+    width: 102%;
+    margin-top: 4%;
+}
+
+.warning p {
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+    padding-right: 3%;
+    padding-left: 1%;
+}
+
