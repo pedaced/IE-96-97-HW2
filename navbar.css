@@ -178,3 +178,23 @@
     color: blue;
 }
 
+.search input {
+    border-radius: 25px;
+    border: 1px solid #545454;
+
+}
+
+.search input:focus {
+    border: 1px blue solid;
+    outline: none;
+}
+
+i {
+    position: relative;
+    right: -25px;
+    top: 2px;
+}
+
+.search input:focus + i {
+    color: blue;
+}

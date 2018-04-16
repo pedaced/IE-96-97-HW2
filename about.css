@@ -107,3 +107,17 @@
     right: +20px;
     color: blue;
 }
+
+.tajrobe {
+    margin: auto;
+    border: 1px blue solid;
+    background-color: #143cff;
+    border-radius: 25px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.tajrobe p {
+    color: white;
+    font-size: 90%;
+}
