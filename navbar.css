@@ -57,6 +57,7 @@
 
 .type-list .flex-container div a{
     text-decoration: none;
+    font-weight: lighter;
 }
 
 .type-list .flex-container div a:hover{
@@ -86,7 +87,7 @@
 
 .main-list .flex-item {
     border: 1px solid gray;
-    border-bottom: none;
+    /*border-bottom: none;*/
     border-radius : 3px;
     padding-top: 2%;
     flex: 1 1 0;
@@ -96,6 +97,7 @@
 .main-list .flex-item a {
     font-size: 80%;
     text-decoration: none;
+    font-weight: lighter;
 }
 
 
@@ -106,7 +108,7 @@
 
 .main-list .flex-item:hover {
     border: 1px blue solid;
-    border-bottom: none;
+    /*border-bottom: none;*/
     color: blue;
 }
 
